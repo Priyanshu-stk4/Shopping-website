@@ -2,6 +2,9 @@ import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
 import { CartContext } from "../contexts/CartContext";
 import { ProductContext } from "../contexts/ProductContext";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Sidebar from "../components/Sidebar";
 
 const ProductDetails = () => {
   // get the product id from url
@@ -27,6 +30,7 @@ const ProductDetails = () => {
   const { title, price, description, image } = product;
   return (
     <section className="pt-[450px] md:pt-32 pb-[400px] md:pb-12 lg:py-32 h-screen flex items-center">
+      <Header/>
       <div className="container mx-auto">
         {/* image and text wrapper */}
         <div className="flex flex-col lg:flex-row items-center">
@@ -43,6 +47,8 @@ const ProductDetails = () => {
           </div>
         </div>
       </div>
+      <Sidebar/>
+      <Footer/>
     </section>
   );
 };

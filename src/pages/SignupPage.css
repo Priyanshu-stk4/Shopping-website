@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .signup-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#808080;
+    padding: 20px;
+  }
+  
+  .signup-container {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: row;
+  }
+  
+  .image-section {
+    width: 50%;
+  }
+  
+  .image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .signup-form {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .signup-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .hello {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    /* color: white; */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    text-align: center;
+    /* margin-top: 10px; */
+    /* padding-bottom:100px; */
+  }
+  
+  p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 90%;
+        max-width: 500px;
+    }
+  
+    .image-section {
+        width: 100%;
+        height: 200px;
+    }
+  
+    .signup-form {
+        width: 100%;
+        padding: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .signup-form {
+        padding: 15px;
+    }
+  
+    .signup-form h2 {
+        font-size: 20px;
+    }
+  
+    .input-group label {
+        font-size: 12px;
+    }
+  
+    .input-group input {
+        padding: 8px;
+    }
+  
+    button {
+        padding: 8px;
+        font-size: 14px;
+    }
+  
+    .image-section {
+        height: 150px;
+    }
+  }
+  

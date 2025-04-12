@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "image": "https://fakestoreapi.com/img/1.jpg",
+      "category": "electronics",
+      "title": "Wireless Headphones",
+      "price": 59.99
+    },
+    {
+      "id": 2,
+      "image": "https://fakestoreapi.com/img/2.jpg",
+      "category": "clothing",
+      "title": "Men's T-shirt",
+      "price": 19.99
+    },
+    {
+      "id": 3,
+      "image": "https://fakestoreapi.com/img/3.jpg",
+      "category": "clothing",
+      "title": "Women's Jacket",
+      "price": 89.99
+    },
+    {
+      "id": 4,
+      "image": "https://fakestoreapi.com/img/4.jpg",
+      "category": "electronics",
+      "title": "Smartphone",
+      "price": 299.99
+    }
+  ]
+  
