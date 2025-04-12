@@ -26,6 +26,13 @@ const Sidebar = () => {
         isOpen ? "right-0" : "-right-full"
       } w-full bg-white fixed top-0 h-full shadow-2xl md:w-[35vw] lg:w-[40vw] xl:max-w-[30vw] transition-all duration-300 z-20 px-4 lg:px-[35px]`}
     >
+      {/* ✅ Centered Popup */}
+      {showPopup && (
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-green-500 text-white text-center px-6 py-4 rounded-md z-30 font-semibold shadow-lg">
+          Order placed successfully!
+        </div>
+      )}
+
       <div className="flex items-center justify-between py-6 border-b">
         <div className="uppercase text-sm font-semibold">
           Shopping Bag ({itemAmount})
@@ -70,17 +77,9 @@ const Sidebar = () => {
         >
           Checkout
         </button>
-
-        {/* Popup message */}
-        {showPopup && (
-          <div className="bg-green-500 text-white text-center p-3 rounded-md mt-2 animate-fade-in-out">
-            Order placed successfully!
-          </div>
-        )}
       </div>
     </div>
   );
 };
 
 export default Sidebar;
-
