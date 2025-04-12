@@ -29,7 +29,7 @@ This is a fully responsive e-commerce shopping website project built using React
 
 Below are some screenshots of the website.
 
-![Home Page](ecommerce-shop-react-app\src\img\Homepage.png)
+![Home Page](/src/img/Homepage.png)
 
 ![Cart/Sidebar](/src/img/cart.png)
 
