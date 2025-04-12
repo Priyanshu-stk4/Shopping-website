@@ -10,6 +10,9 @@ This is a fully responsive e-commerce shopping website project built using React
 - [Technologies Used](#technologies-used)
 - [Installation and Setup](#installation-and-setup)
 
+# Live link
+ https://shopping-website-cyan.vercel.app/
+
 
 ## Features
 
@@ -39,6 +42,10 @@ Below are some screenshots of the website.
 2. Navigate to the project directory and run `npm install` to install all dependencies.
 3. Run `npm start` to start the application.
 4. Open `http://localhost:3000` in your browser to view the website.
+
+## Username and password
+Username- mor_2314
+password- 83r5^_
 
 
 Thank you! 🤍
